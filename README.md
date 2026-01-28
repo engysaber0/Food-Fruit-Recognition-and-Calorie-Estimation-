@@ -51,46 +51,6 @@ For example, a user or health specialist can simply take a photo of a meal, and 
 
 ---
 
-## Project Structure
-
-```
-Food-Fruit-Recognition-Calorie-Estimation/
-│
-├── data/                  # Dataset folder
-│   ├── images/
-│   └── annotations/
-│
-├── models/                # Trained models and checkpoints
-│
-├── notebooks/             # Jupyter notebooks for experimentation
-│
-├── src/                   # Source code
-│   ├── preprocessing.py
-│   ├── stage1_classification.py
-│   ├── stage2_fruit_classification.py
-│   ├── stage2_food_siamese.py
-│   ├── segmentation_binary.py
-│   └── segmentation_multiclass.py
-│
-├── requirements.txt       # Python dependencies
-└── README.md
-```
-
----
-
-## Technologies & Tools
-
-* **Programming Language:** Python
-* **Deep Learning Framework:** PyTorch / TensorFlow
-* **Computer Vision Techniques:**
-
-  * Image Preprocessing & Augmentation
-  * CNN-based Classification
-  * Siamese Network for Few-Shot Learning
-  * Semantic Segmentation (Binary & Multi-Class)
-* **Evaluation Metrics:** Accuracy, F1-Score, IoU
-
-
 
 Link of Full Code :
 https://github.com/FatmmaELZahraa/Computer-Vision
